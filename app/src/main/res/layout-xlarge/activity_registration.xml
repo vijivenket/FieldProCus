@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_blur"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    tools:context="com.capricot.fieldprocustomer.Registration">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/form_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/full_name_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Full Name"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:importantForAutofill="no" />
+
+
+            <TextView
+                android:id="@+id/emai_id_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Email ID"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/email_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Enter Your Email Id"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:importantForAutofill="no" />
+
+
+            <TextView
+                android:id="@+id/contact_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Contact Number"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/contact_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Contact Number"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:importantForAutofill="no" />
+
+
+            <TextView
+                android:id="@+id/alt_contact_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Alternative Contact Number"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/atl_contact_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Alternative Contact Number"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:importantForAutofill="no" />
+
+
+            <TextView
+                android:id="@+id/company_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Company"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+
+            <LinearLayout
+                android:id="@+id/company_spinnerl"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background">
+
+                <Spinner
+                    android:id="@+id/company_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:spinnerMode="dropdown"></Spinner>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Product_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Product"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+
+            <LinearLayout
+                android:id="@+id/product_spinnerl"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background">
+
+                <Spinner
+                    android:id="@+id/product_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></Spinner>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/category_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Category"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+
+            <LinearLayout
+                android:id="@+id/category_spinnerl"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background">
+
+                <Spinner
+                    android:id="@+id/category_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></Spinner>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/model_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Model Number"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/model_number_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Model Number"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:id="@+id/serial_num_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Serial Number"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/serial_number_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Serial Number"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Type of Contract"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background">
+
+                <Spinner
+                    android:id="@+id/spinner_typeofcontract"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:overlapAnchor="false"></Spinner>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Start Date"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/startdate_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Start Date"
+                 android:padding="10dp"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Contract Duration"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/contractduration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Contract Duration"
+                android:inputType="number"
+                android:maxLength="2"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:importantForAutofill="no" />
+
+
+            <TextView
+                android:id="@+id/address_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Address"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/door_no_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Door No"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:importantForAutofill="no" />
+
+
+            <EditText
+                android:id="@+id/street_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Street"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:importantForAutofill="no" />
+
+
+            <EditText
+                android:id="@+id/town_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Town"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/landmark_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Land Mark"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:importantForAutofill="no" />
+
+
+            <EditText
+                android:id="@+id/city_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_background"
+                android:hint="City"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:importantForAutofill="no" />
+
+
+            <EditText
+                android:id="@+id/state_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_background"
+                android:hint="State"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:importantForAutofill="no" />
+
+
+            <EditText
+                android:id="@+id/country_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Country"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:importantForAutofill="no" />
+
+
+            <EditText
+                android:id="@+id/pincode_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Pin Code"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:importantForAutofill="no" />
+
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/round_corner_label"
+                android:text="Register"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

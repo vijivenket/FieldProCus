@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_blur">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp">
+
+            <TextView
+                android:id="@+id/close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="15dp"
+                android:paddingRight="5dp"
+                android:text="Close"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/address_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/serial_number_input"
+                android:layout_marginTop="15dp"
+                android:text="Address"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/door_no_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/address_text"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Door No"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:importantForAutofill="no" />
+
+
+            <EditText
+                android:id="@+id/street_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/door_no_input"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Street"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:importantForAutofill="no" />
+
+
+            <EditText
+                android:id="@+id/town_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/street_input"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Town"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/region_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/town_input"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Region"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/landmark_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/region_input"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Land Mark"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:importantForAutofill="no" />
+
+
+            <EditText
+                android:id="@+id/city_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/landmark_input"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_background"
+                android:hint="City"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:importantForAutofill="no" />
+
+
+            <EditText
+                android:id="@+id/state_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/city_input"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_background"
+                android:hint="State"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:importantForAutofill="no" />
+
+
+            <EditText
+                android:id="@+id/country_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/state_input"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Country"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:importantForAutofill="no" />
+
+
+            <EditText
+                android:id="@+id/pincode_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/country_input"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Pin Code"
+                android:inputType="number"
+                android:maxLength="6"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:importantForAutofill="no" />
+
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/pincode_input"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/round_corner_label"
+                android:text="Save"
+                android:textColor="@color/white" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

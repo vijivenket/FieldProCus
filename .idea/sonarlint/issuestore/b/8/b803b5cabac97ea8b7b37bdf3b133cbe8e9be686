@@ -1,0 +1,231 @@
+
+osquid:CommentedOutCodeLineç"<This block of commented-out lines of code should be removed.(ğìáüÿÿÿÿ8‹Î¿¢®-
+Ssquid:S2696¿"6Make the enclosing method "static" or remove this set.(÷ƒ®ˆÿÿÿÿÿ
+squid:S1192¾"oDefine a constant instead of duplicating this literal "Something went wrong please try again later ! " 6 times.(åÏµà8Ú¸º¢®-
+Usquid:S2696¾"6Make the enclosing method "static" or remove this set.(Ë¥§8Ú¸º¢®-
+qsquid:S1450r"URemove the "region" field and declare it as a local variable in the relevant methods.(¢¬Ÿùÿÿÿÿ
+Fsquid:S1659"/Declare "work_typeNameList" on a separate line.(ü„¬»
+rsquid:S00116"ZRename this field "work_typeIDList" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü„¬»
+jsquid:S1192¼	"KDefine a constant instead of duplicating this literal "Take Photo" 4 times.(ŠÛ£‚8Ú¸º¢®-
+wsquid:S1450e"[Remove the "location_yes" field and declare it as a local variable in the relevant methods.(¸Ùãÿÿÿÿÿ
+Zsquid:S2696Ä"6Make the enclosing method "static" or remove this set.(ƒ™¬Îúÿÿÿÿ8íøÕ ®-
+ssquid:S3008e"WRename this field "location_yes" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸Ùãÿÿÿÿÿ
+osquid:CommentedOutCodeLineö"<This block of commented-out lines of code should be removed.(ĞÎÚ‚ûÿÿÿÿ8ºšÁ¢®-
+¥squid:S1186å"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ8Ú¸º¢®-
+vsquid:S00117Ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÒ‚Ôùÿÿÿÿ8‹Î¿¢®-
+¥squid:S1186ò"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ö èşÿÿÿÿ8‹Î¿¢®-
+osquid:CommentedOutCodeLine²"<This block of commented-out lines of code should be removed.(ÑÍé†úÿÿÿÿ8Ú¸º¢®-
+ksquid:S00116w"SRename this field "prob_dec" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ê‰Ö
+wsquid:S1450G"[Remove the "attach_image" field and declare it as a local variable in the relevant methods.(öß½şÿÿÿÿ
+Isquid:S00108§")Either remove or fill this block of code.(å¥‡8‹Î¿¢®-
+vsquid:S2293¿"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô÷Æøùÿÿÿÿ
+tsquid:S00116z"WRename this field "MobileNumber" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÇÄ¤şÿÿÿÿ
+csquid:S1192T"GDefine a constant instead of duplicating this literal "cat_id" 3 times.(‹‰»ÿÿÿÿÿ
+Nsquid:S2696€"6Make the enclosing method "static" or remove this set.(Å­ÿâ
+squid:S3923Ÿ"[Remove this conditional structure or edit its code blocks so that they're not all the same.(ù±À€ùÿÿÿÿ8Ú¸º¢®-
+Usquid:S2696˜"6Make the enclosing method "static" or remove this set.(ÿù±¼8‹Î¿¢®-
+qsquid:S2293Å"YReplace the type specification in this constructor call with the diamond operator ("<>").(õ³û
+qsquid:S2293¹"YReplace the type specification in this constructor call with the diamond operator ("<>").(ĞŞ‘–
+Usquid:S2696€"6Make the enclosing method "static" or remove this set.(ÉˆËá8Ú¸º¢®-
+Fsquid:S1068r"*Remove this unused "region" private field.(¢¬Ÿùÿÿÿÿ
+Jsquid:S1659"3Declare "call_categoryNameList" on a separate line.(ü„¬»
+¥squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ö èşÿÿÿÿ8Ú¸º¢®-
+jsquid:CommentedOutCodeLineì"<This block of commented-out lines of code should be removed.(Ğéçú8Ú¸º¢®-
+qsquid:S00117º"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²ú²8‹Î¿¢®-
+xsquid:S2293ÿ"YReplace the type specification in this constructor call with the diamond operator ("<>").(«üÎŒ8‹Î¿¢®-
+Fsquid:S1659z"*Declare "CustomerMail" on a separate line.(ÆÇÄ¤şÿÿÿÿ
+Lsquid:S1444d"0Make this "public static worktypeID" field final(÷„ªıÿÿÿÿ
+rsquid:S00116z"URename this field "CustomerID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÇÄ¤şÿÿÿÿ
+psquid:S1450X"YRemove the "riseticket" field and declare it as a local variable in the relevant methods.(ˆõ’¨
+Ssquid:S2696•"6Make the enclosing method "static" or remove this set.(õé‚’şÿÿÿÿ
+Dsquid:S1659z"(Declare "CustomerID" on a separate line.(ÆÇÄ¤şÿÿÿÿ
+osquid:CommentedOutCodeLine»"<This block of commented-out lines of code should be removed.(Øª×Àıÿÿÿÿ8Ú¸º¢®-
+qsquid:S1450f"ZRemove the "location_no" field and declare it as a local variable in the relevant methods.(úøÏ
+jsquid:CommentedOutCodeLineğ"<This block of commented-out lines of code should be removed.(Ãó—ä8Ú¸º¢®-
+8squid:S1170U"!Make this final field static too.(«Øˆù
+}squid:S2293á"YReplace the type specification in this constructor call with the diamond operator ("<>").(Û²Ë÷ÿÿÿÿÿ8‹Î¿¢®-
+jsquid:CommentedOutCodeLine¬"<This block of commented-out lines of code should be removed.(­À™ß8Ú¸º¢®-
+=squid:S1170T"!Make this final field static too.(‹‰»ÿÿÿÿÿ
+]"squid:SwitchLastCaseIsDefaultCheck¹	""Add a default case to this switch.(×ö³–úÿÿÿÿ8‹Î¿¢®-
+Ssquid:S2696µ"6Make the enclosing method "static" or remove this set.(™ÄŞáùÿÿÿÿ
+psquid:S00116R"XRename this field "KEY_CompanyID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÑÜ‚
+jsquid:CommentedOutCodeLine·"<This block of commented-out lines of code should be removed.(š¯´8Ú¸º¢®-
+wsquid:S00116M"ZRename this field "product_spinner" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õæÑ´ûÿÿÿÿ
+Asquid:S1659y"*Declare "region_input" on a separate line.(œ£û»
+jsquid:CommentedOutCodeLineí"<This block of commented-out lines of code should be removed.(çâ¿ª8Ú¸º¢®-
+Ssquid:S2696À"6Make the enclosing method "static" or remove this set.(’¹¤øÿÿÿÿ
+Asquid:S1659y"*Declare "loc_landmark" on a separate line.(œ£û»
+Zsquid:S2696ò"6Make the enclosing method "static" or remove this set.(÷Ğ­„ıÿÿÿÿ8Ú¸º¢®-
+dsquid:S1192°"GDefine a constant instead of duplicating this literal "street" 3 times.(¶±Ğÿÿÿÿÿ
+Zsquid:S2696—"6Make the enclosing method "static" or remove this set.(Ô°ˆ¬úÿÿÿÿ8‹Î¿¢®-
+_
+squid:S899…
+"BDo something with the "boolean" value returned by "createNewFile".(ÌŞ±>8‹Î¿¢®-
+nsquid:S00116y"VRename this field "loc_country" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ£û»
+@squid:S1659y")Declare "loc_pincode" on a separate line.(œ£û»
+=squid:S1170S"!Make this final field static too.(ğ™Á™ÿÿÿÿÿ
+7squid:S1170V"!Make this final field static too.(¾Ş­
+
+xsquid:S2293˜	"YReplace the type specification in this constructor call with the diamond operator ("<>").(«üÎŒ8‹Î¿¢®-
+Fsquid:S1659z"*Declare "MobileNumber" on a separate line.(ÆÇÄ¤şÿÿÿÿ
+Zsquid:S2696
+"6Make the enclosing method "static" or remove this set.(Ï¬¡Ïøÿÿÿÿ8‹Î¿¢®-
+squid:S1192™"qDefine a constant instead of duplicating this literal "application/x-www-form-urlencoded; charset=UTF-8" 3 times.(éƒê¿8‹Î¿¢®-
+Fsquid:S1444`"/Make this "public static wortypeID" field final(¸«Ïö
+usquid:S00116S"XRename this field "KEY_ProductID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ™Á™ÿÿÿÿÿ
+xsquid:S1192¾	"TDefine a constant instead of duplicating this literal "Choose from Library" 4 times.(¬Ó‰üÿÿÿÿ8‹Î¿¢®-
+Esquid:S1659".Declare "contractTypeName" on a separate line.(ü„¬»
+isquid:CommentedOutCodeLineœ"<This block of commented-out lines of code should be removed.(šó‡_8Ú¸º¢®-
+vsquid:S2293À"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÎÄò÷ıÿÿÿÿ
+Nsquid:S2696Á"6Make the enclosing method "static" or remove this set.(…ŒîØ
+jsquid:CommentedOutCodeLineï"<This block of commented-out lines of code should be removed.(À¨˜æ8óÖã ®-
+jsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(«ÃÀ÷
+8squid:S1170R"!Make this final field static too.(ÀÑÜ‚
+Gsquid:S1659Û"#Declare "datee" on a separate line.(·Àşùÿÿÿÿ8Ú¸º¢®-
+isquid:S3008h"RRename this field "door_no" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃïÑ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îê“úÿÿÿÿ
+=squid:S1659y"&Declare "loc_town" on a separate line.(œ£û»
+Dsquid:S1659"-Declare "productNameList" on a separate line.(ü„¬»
+rsquid:S00116z"URename this field "company_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÇÄ¤şÿÿÿÿ
+¥squid:S1186Ø"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ö èşÿÿÿÿ8Ú¸º¢®-
+jsquid:CommentedOutCodeLineâ"<This block of commented-out lines of code should be removed.(úûî—8‹Î¿¢®-
+ksquid:S00116y"SRename this field "loc_city" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ£û»
+|squid:S00116N"_Rename this field "sub_category_spinner" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ó¢£ıÿÿÿÿ
+tsquid:S00116z"WRename this field "CustomerName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÇÄ¤şÿÿÿÿ
+tsquid:S00116"\Rename this field "work_typeNameList" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü„¬»
+osquid:CommentedOutCodeLineÏ"<This block of commented-out lines of code should be removed.(×ßĞÈúÿÿÿÿ8Ú¸º¢®-
+¥squid:S1186’"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ8Ú¸º¢®-
+Zsquid:S2696à"6Make the enclosing method "static" or remove this set.(ëÎäíüÿÿÿÿ8Ú¸º¢®-
+xsquid:S2293º"YReplace the type specification in this constructor call with the diamond operator ("<>").(«üÎŒ8‹Î¿¢®-
+Usquid:S2696—"6Make the enclosing method "static" or remove this set.(Õµ°µ8Ú¸º¢®-
+Isquid:S00108†")Either remove or fill this block of code.(å¥‡8Ú¸º¢®-
+}squid:S00116O"`Rename this field "contract_type_spinner" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åá®ÿûÿÿÿÿ
+msquid:S3008f"VRename this field "location_no" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úøÏ
+Fsquid:S1659z"*Declare "CustomerName" on a separate line.(ÆÇÄ¤şÿÿÿÿ
+osquid:CommentedOutCodeLine…"<This block of commented-out lines of code should be removed.(÷¥»ñøÿÿÿÿ8Ú¸º¢®-
+vsquid:S2293¸"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ó¦Õ›ùÿÿÿÿ
+jsquid:CommentedOutCodeLineš"<This block of commented-out lines of code should be removed.(ÂÏ•ñ8Ú¸º¢®-
+Tsquid:S2696Ñ"6Make the enclosing method "static" or remove this set.(ªúç8Ú¸º¢®-
+tsquid:S00116z"WRename this field "CustomerMail" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÇÄ¤şÿÿÿÿ
+Ssquid:S2696´"6Make the enclosing method "static" or remove this set.(¨‹É˜ÿÿÿÿÿ
+wsquid:S00116"_Rename this field "sub_categoryNameList" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü„¬»
+osquid:CommentedOutCodeLine¡"<This block of commented-out lines of code should be removed.(£»¶€ıÿÿÿÿ8‹Î¿¢®-
+bsquid:S1192R"KDefine a constant instead of duplicating this literal "company_id" 3 times.(ÀÑÜ‚
+Msquid:S2696Ã"6Make the enclosing method "static" or remove this set.(£‹
+jsquid:CommentedOutCodeLineÒ"<This block of commented-out lines of code should be removed.(½ÄÑ„8Ú¸º¢®-
+osquid:CommentedOutCodeLineñ"<This block of commented-out lines of code should be removed.(¾Á«åøÿÿÿÿ8Ú¸º¢®-
+osquid:CommentedOutCodeLine–"<This block of commented-out lines of code should be removed.(È’¹Ûùÿÿÿÿ8Ú¸º¢®-
+nsquid:S00116W"VRename this field "SELECT_FILE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦Ä÷
+osquid:S00116v"WRename this field "model_number" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡üàñ
+ysquid:S00116Q"\Rename this field "work_type_spinner" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®¹ßßÿÿÿÿÿ
+Isquid:S1659"2Declare "sub_categoryNameList" on a separate line.(ü„¬»
+}squid:S2293ÿ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ĞÕ®Îÿÿÿÿÿ8‹Î¿¢®-
+osquid:S00116y"WRename this field "loc_landmark" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ£û»
+>squid:S1659z""Declare "land" on a separate line.(ÆÇÄ¤şÿÿÿÿ
+8squid:S1170W"!Make this final field static too.(¦Ä÷
+Gsquid:S1659"0Declare "sub_categoryIDList" on a separate line.(ü„¬»
+ƒ"squid:ClassVariableVisibilityCheck["UMake companyID a static final constant or non-public and provide accessors if needed.(¹™øÛ
+¥squid:S1186Ğ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ö èşÿÿÿÿ8‹Î¿¢®-
+vsquid:S2293Ã"YReplace the type specification in this constructor call with the diamond operator ("<>").(ØÎ¸Êıÿÿÿÿ
+xsquid:S2293Ã"YReplace the type specification in this constructor call with the diamond operator ("<>").(«üÎŒ8Ú¸º¢®-
+tsquid:S00116G"WRename this field "attach_image" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öß½şÿÿÿÿ
+fsquid:S1192†"GDefine a constant instead of duplicating this literal "status" 7 times.(ûıÿ 8Ú¸º¢®-
+Isquid:S00108…	")Either remove or fill this block of code.(å¥‡8‹Î¿¢®-
+Isquid:S1659z"-Declare "alternatenumber" on a separate line.(ÆÇÄ¤şÿÿÿÿ
+xsquid:S2293«"YReplace the type specification in this constructor call with the diamond operator ("<>").(’ğÇñ8Ú¸º¢®-
+jsquid:CommentedOutCodeLineœ"<This block of commented-out lines of code should be removed.(Ü¤ª8Ú¸º¢®-
+Zsquid:S2696"6Make the enclosing method "static" or remove this set.(¾ä¬Çıÿÿÿÿ8Ú¸º¢®-
+osquid:CommentedOutCodeLine¾"<This block of commented-out lines of code should be removed.(ĞâË¢øÿÿÿÿ8Ú¸º¢®-
+Gsquid:S1148Š
+"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ú¸º¢®-
+Gsquid:S1148Œ
+"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‹Î¿¢®-
+jsquid:CommentedOutCodeLineí"<This block of commented-out lines of code should be removed.(ÎºÜñ8Ú¸º¢®-
+usquid:S00116"]Rename this field "sub_categoryIDList" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü„¬»
+@squid:S1185‡"(Remove this method to simply inherit it.(ßìê¯
+Lsquid:S1068e"0Remove this unused "location_yes" private field.(¸Ùãÿÿÿÿÿ
+ysquid:S1192å"UDefine a constant instead of duplicating this literal "Select Call Category" 3 times.(ã›œåşÿÿÿÿ8Ú¸º¢®-
+osquid:S1192÷"KDefine a constant instead of duplicating this literal "Loading..." 3 times.(â·™ìÿÿÿÿÿ8Ú¸º¢®-
+@squid:S1659y")Declare "loc_country" on a separate line.(œ£û»
+jsquid:CommentedOutCodeLine€"<This block of commented-out lines of code should be removed.(úÚÒ8‹Î¿¢®-
+‡"squid:ClassVariableVisibilityCheckk"TMake landmark a static final constant or non-public and provide accessors if needed.(ğ¢ØÂüÿÿÿÿ
+vsquid:S2293Æ"YReplace the type specification in this constructor call with the diamond operator ("<>").(£ÛŠúÿÿÿÿ
+nsquid:S00116y"VRename this field "loc_pincode" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ£û»
+lsquid:S1192Æ"HDefine a constant instead of duplicating this literal "nowtest" 6 times.(Ì–³šüÿÿÿÿ8Ú¸º¢®-
+osquid:S1301¹	"KReplace this "switch" statement by "if" statements to increase readability.(×ö³–úÿÿÿÿ8‹Î¿¢®-
+Fsquid:S1068f"/Remove this unused "location_no" private field.(úøÏ
+wsquid:S1450g"[Remove the "pref_storage" field and declare it as a local variable in the relevant methods.(ÍõÖ«øÿÿÿÿ
+Nsquid:S2696Â"6Make the enclosing method "static" or remove this set.(‹é†š
+vsquid:S00117Ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÿøÿÿÿÿ8‹Î¿¢®-
+xsquid:S2293¡"YReplace the type specification in this constructor call with the diamond operator ("<>").(÷ˆ„Ç8‹Î¿¢®-
+Bsquid:S1659x"&Declare "sMinute1" on a separate line.(İ»Çôşÿÿÿÿ
+rsquid:S00116T"URename this field "KEY_SubCat" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹‰»ÿÿÿÿÿ
+¥squid:S1186­	"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ö èşÿÿÿÿ8‹Î¿¢®-
+Isquid:S00108°")Either remove or fill this block of code.(å¥‡8Ú¸º¢®-
+osquid:S00116y"WRename this field "region_input" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ£û»
+xsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(«üÎŒ8‹Î¿¢®-
+xsquid:S2293Ó"YReplace the type specification in this constructor call with the diamond operator ("<>").(«üÎŒ8Ú¸º¢®-
+Usquid:S2696½"6Make the enclosing method "static" or remove this set.(áğ›×8Ú¸º¢®-
+ksquid:S00116y"SRename this field "loc_town" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ£û»
+vsquid:S2293»"YReplace the type specification in this constructor call with the diamond operator ("<>").(ŞšÍÌıÿÿÿÿ
+Jsquid:S1444k".Make this "public static landmark" field final(ğ¢ØÂüÿÿÿÿ
+nsquid:S1450{"RRemove the "img" field and declare it as a local variable in the relevant methods.(ÆÖ’„ÿÿÿÿÿ
+Gsquid:S1659"0Declare "contractTypeIDList" on a separate line.(ü„¬»
+qsquid:S2293Â"YReplace the type specification in this constructor call with the diamond operator ("<>").(„…øÌ
+ƒ"squid:ClassVariableVisibilityCheck`"UMake wortypeID a static final constant or non-public and provide accessors if needed.(¸«Ïö
+Zsquid:S2696"6Make the enclosing method "static" or remove this set.(‡Òßúÿÿÿÿ8Ú¸º¢®-
+Dsquid:S1659"-Declare "work_typeIDList" on a separate line.(ü„¬»
+osquid:S3008a"SRename this field "cat_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óª”Îùÿÿÿÿ
+Isquid:S00108Å")Either remove or fill this block of code.(å¥‡8‹Î¿¢®-
+xsquid:S2293İ"YReplace the type specification in this constructor call with the diamond operator ("<>").(«üÎŒ8‹Î¿¢®-
+Gsquid:S1068H"+Remove this unused "fileUri" private field.(É´›ùÿÿÿÿ
+osquid:CommentedOutCodeLineÅ"<This block of commented-out lines of code should be removed.(¯“¯¦ıÿÿÿÿ8Ú¸º¢®-
+osquid:CommentedOutCodeLineã"<This block of commented-out lines of code should be removed.(£»¶€ıÿÿÿÿ8Ú¸º¢®-
+Usquid:S2696Î"6Make the enclosing method "static" or remove this set.(Õµ°µ8Ú¸º¢®-
+osquid:CommentedOutCodeLine„"<This block of commented-out lines of code should be removed.(›…¡Æşÿÿÿÿ8‹Î¿¢®-
+osquid:CommentedOutCodeLine«"<This block of commented-out lines of code should be removed.(¾Á«åøÿÿÿÿ8‹Î¿¢®-
+ksquid:S1192¡"GDefine a constant instead of duplicating this literal "result" 6 times.(ÎâÓÈüÿÿÿÿ8Ú¸º¢®-
+vsquid:S2293¼"YReplace the type specification in this constructor call with the diamond operator ("<>").(İƒ¶÷üÿÿÿÿ
+¥squid:S1186•"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ö èşÿÿÿÿ8‹Î¿¢®-
+¥squid:S1186Ø"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ8Ú¸º¢®-
+tsquid:S00116g"WRename this field "pref_storage" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍõÖ«øÿÿÿÿ
+msquid:S2095†
+"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ûŸ‰ï8‹Î¿¢®-
+osquid:CommentedOutCodeLineÜ"<This block of commented-out lines of code should be removed.(£»¶€ıÿÿÿÿ8‹Î¿¢®-
+osquid:CommentedOutCodeLine‰"<This block of commented-out lines of code should be removed.(¾Á«åøÿÿÿÿ8Ú¸º¢®-
+jsquid:S3008q"SRename this field "prob_des" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…ó€
+isquid:CommentedOutCodeLine¡
+"<This block of commented-out lines of code should be removed.(ÖÄË8‹Î¿¢®-
+‰"squid:ClassVariableVisibilityCheckd"VMake worktypeID a static final constant or non-public and provide accessors if needed.(÷„ªıÿÿÿÿ
+¥squid:S1186µ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ö èşÿÿÿÿ8‹Î¿¢®-
+jsquid:S3008c"TRename this field "model_num" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÔô
+esquid:S2147‹
+"FCombine this catch with the one at line 1289, which has the same body.(ï­£Ä8‹Î¿¢®-
+¥squid:S1186„"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ8Ú¸º¢®-
+psquid:S00116V"YRename this field "REQUEST_CAMERA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾Ş­
+
+ksquid:S3008s"TRename this field "serial_no" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ñÙÀ
+xsquid:S00116P"`Rename this field "call_category_spinner" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ÇÄ¨
+osquid:CommentedOutCodeLine‹"<This block of commented-out lines of code should be removed.(ğìáüÿÿÿÿ8‹Î¿¢®-
+vsquid:S00116"^Rename this field "call_categoryIDList" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü„¬»
+=squid:S1659y"&Declare "loc_city" on a separate line.(œ£û»
+osquid:CommentedOutCodeLineÂ"<This block of commented-out lines of code should be removed.(×§ŠÕüÿÿÿÿ8óÖã ®-
+>squid:S1659y"'Declare "loc_state" on a separate line.(œ£û»
+jsquid:CommentedOutCodeLineÊ"<This block of commented-out lines of code should be removed.(˜ğÂš8‹Î¿¢®-
+lsquid:S00116y"TRename this field "loc_state" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ£û»
+osquid:CommentedOutCodeLineÀ"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8óÖã ®-
+nsquid:S00116y"VRename this field "loc_door_no" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ£û»
+¥squid:S1186ö"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ8Ú¸º¢®-
+Usquid:S2696¢
+"6Make the enclosing method "static" or remove this set.(ªş„ì8‹Î¿¢®-
+Fsquid:S1444["/Make this "public static companyID" field final(¹™øÛ
+Isquid:S00108ç")Either remove or fill this block of code.(å¥‡8‹Î¿¢®-
+qsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÈåÔ8Ú¸º¢®-
+?squid:S1659y"(Declare "loc_street" on a separate line.(œ£û»
+xsquid:S2293Á"YReplace the type specification in this constructor call with the diamond operator ("<>").(›õ›Í8‹Î¿¢®-
+jsquid:S3008b"SRename this field "amc_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô¾š
+msquid:S00116y"URename this field "loc_street" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ£û»
+Hsquid:S1659"1Declare "call_categoryIDList" on a separate line.(ü„¬»
+nsquid:S00116U"VRename this field "KEY_cust_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«Øˆù
+qsquid:S00117¹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ĞŠÖ8‹Î¿¢®-
+xsquid:S00116"`Rename this field "call_categoryNameList" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü„¬»

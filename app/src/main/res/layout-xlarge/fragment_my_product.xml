@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_blur"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/spinner_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                android:id="@+id/add_product"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="Add Product"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_alignParentEnd="true"
+                android:textAllCaps="false"
+                android:background="@drawable/round_corner_label"
+                />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/product_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/add_product"
+                android:visibility="visible" />
+
+            <RelativeLayout
+                android:id="@+id/top_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_below="@+id/product_list"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:visibility="visible"
+                >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@+id/spinner_text_box"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:id="@+id/product_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal"
+                        android:baselineAligned="false">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            >
+
+                            <TextView
+                                android:id="@+id/product_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Product"
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:background="@drawable/spinner_background"
+                            >
+
+                            <Spinner
+                                android:id="@+id/product_spinner"
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp">
+
+                            </Spinner>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+
+
+
+                    <LinearLayout
+                        android:id="@+id/sub_category_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:id="@+id/sub_category_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sub Category"
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:background="@drawable/spinner_background"
+                            >
+
+                            <Spinner
+                                android:id="@+id/sub_category_spinner"
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp">
+
+                            </Spinner>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+
+                    <LinearLayout
+                        android:id="@+id/serial_number_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Serial Number"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:background="@drawable/spinner_background"
+                            >
+
+                            <EditText
+                                android:id="@+id/serial_number_input"
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp"
+                                android:textSize="20sp"
+                                android:hint="Serial Number"
+                                android:ellipsize="end"
+                                android:textColor="@color/black"
+                                android:paddingStart="10dp"
+                                android:background="@drawable/spinner_background"
+                                android:importantForAutofill="no">
+                            </EditText>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+
+                    <LinearLayout
+                        android:id="@+id/model_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Model Number"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:background="@drawable/spinner_background"
+                            >
+
+                            <EditText
+                                android:id="@+id/model_number_input"
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp"
+                                android:textSize="20sp"
+                                android:paddingStart="10dp"
+                                android:hint="Model Number"
+                                android:ellipsize="end"
+                                android:textColor="@color/black"
+                                android:background="@drawable/spinner_background"
+                                android:importantForAutofill="no">
+                            </EditText>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/contract_type_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Contract Type"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:background="@drawable/spinner_background"
+                            >
+
+                            <Spinner
+                                android:id="@+id/contract_type_spinner"
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp"
+                                android:text="Warranty Support"
+                                android:paddingStart="10dp"
+                                android:paddingTop="4dp"
+                                android:textColor="@color/black">
+                            </Spinner>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Start Date"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:background="@drawable/spinner_background"
+                            >
+
+                            <TextView
+                                android:id="@+id/startdate_text"
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp"
+                                android:textSize="20sp"
+                                android:hint="Start Date"
+                                android:ellipsize="end"
+                                android:textColor="@color/black"
+                                android:paddingStart="10dp"
+                                android:singleLine="true"
+                                android:background="@drawable/spinner_background">
+                            </TextView>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Contract Duration"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:background="@drawable/spinner_background"
+                            >
+
+                            <EditText
+                                android:id="@+id/duration"
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp"
+                                android:textSize="20sp"
+                                android:hint="Contract Duration"
+                                android:maxLength="2"
+                                android:inputType="number"
+                                android:textColor="@color/black"
+                                android:paddingStart="10dp"
+                                android:singleLine="true"
+                                android:background="@drawable/spinner_background"
+                                android:importantForAutofill="no">
+                            </EditText>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/spinner_text_box3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_below="@+id/spinner_text_box"
+                    >
+
+
+
+
+                    <LinearLayout
+                        android:id="@+id/date_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginStart="10dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Purchase date"
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:background="@drawable/spinner_background"
+                            >
+
+                            <TextView
+                                android:id="@+id/purchase_date_id"
+                                android:layout_width="match_parent"
+                                android:textSize="20sp"
+                                android:paddingStart="10dp"
+                                android:hint="select purchase date"
+                                android:paddingTop="4dp"
+                                android:textColor="@color/black"
+                                android:background="@drawable/spinner_background"
+                                android:layout_height="25dp">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/time_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_below="@+id/date_line"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Retailer Name"
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:background="@drawable/spinner_background"
+                            >
+
+                            <EditText
+                                android:id="@+id/retailerName"
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp"
+                                android:paddingStart="10dp"
+                                android:hint="Retailer Name"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:ellipsize="end"
+                                android:background="@drawable/spinner_background"
+                                android:importantForAutofill="no">
+
+                            </EditText>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+
+
+                <Button
+                    android:id="@+id/confirm"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/round_corner_label"
+                    android:text="Confirm"
+                    android:textAllCaps="false"
+                    android:layout_below="@+id/spinner_text_box3"
+                    android:textColor="@color/white"
+                    />
+
+                <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/round_corner_label"
+                    android:text="Cancel"
+                    android:textAllCaps="false"
+                    android:layout_below="@+id/spinner_text_box3"
+                    android:textColor="@color/white"
+                    />
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

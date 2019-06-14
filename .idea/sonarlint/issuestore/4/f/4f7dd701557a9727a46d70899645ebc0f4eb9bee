@@ -1,0 +1,54 @@
+
+rsquid:S2068F"V'PASSWORD' detected in this expression, review this potentially hard-coded credential.(±úÀˆúÿÿÿÿ
+@squid:S1659T"$Declare "fcmkey" on a separate line.(£»øÅüÿÿÿÿ
+dsquid:S1192"GDefine a constant instead of duplicating this literal "fcmkey" 3 times.(©Æºµûÿÿÿÿ
+rsquid:S1192"UDefine a constant instead of duplicating this literal "refreshedToken----->" 3 times.(©Æºµûÿÿÿÿ
+Lsquid:S1066«"/Merge this if statement with the enclosing one.(š•ºœıÿÿÿÿ
+Lsquid:S1066Û"/Merge this if statement with the enclosing one.(“Äîæüÿÿÿÿ
+?squid:S1068N"(Remove this unused "land" private field.(‹ Æ 
+qsquid:S2293¥"YReplace the type specification in this constructor call with the diamond operator ("<>").(«üÎŒ
+vsquid:S1450@"ZRemove the "currentyear" field and declare it as a local variable in the relevant methods.(šÅŸ‚üÿÿÿÿ
+nsquid:S1450["WRemove the "settings" field and declare it as a local variable in the relevant methods.(Ûö×
+Csquid:S1444="'Make this "public static l" field final(ªş§İÿÿÿÿÿ
+hsquid:CommentedOutCodeLine„"<This block of commented-out lines of code should be removed.(òÌüùıÿÿÿÿ
+csquid:CommentedOutCodeLine·"<This block of commented-out lines of code should be removed.(ºÛ©¦
+bsquid:CommentedOutCodeLine¹"<This block of commented-out lines of code should be removed.(†šŠu
+Nsquid:S2696¤"6Make the enclosing method "static" or remove this set.(¶÷Š÷
+Rsquid:S1141Æ"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+€"squid:ClassVariableVisibilityCheck="MMake l a static final constant or non-public and provide accessors if needed.(ªş§İÿÿÿÿÿ
+‚"squid:ClassVariableVisibilityCheckS"TMake Landmark a static final constant or non-public and provide accessors if needed.(¿µ‘Ø
+“"squid:ClassVariableVisibilityCheck^"`Make mNotificationManager a static final constant or non-public and provide accessors if needed.(°àº€ÿÿÿÿÿ
+psquid:CallToDeprecatedMethod‚"BRemove this use of "setInverseBackgroundForced"; it is deprecated.(¢İç¢øÿÿÿÿ
+gsquid:S00100ı"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ı¥¯
+=squid:S1170E"!Make this final field static too.(Ğ­Àéøÿÿÿÿ
+=squid:S1170F"!Make this final field static too.(±úÀˆúÿÿÿÿ
+=squid:S1170G"!Make this final field static too.(Ùæ²ÿÿÿÿÿ
+8squid:S1170H"!Make this final field static too.(ÜŒ´¿
+™squid:S1186Á"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±
+™squid:S1186Ë"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±¾ê
+™squid:S1186Ò"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±
+™squid:S1186Ü"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±¾ê
+squid:S1186¾"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ö èşÿÿÿÿ
+wsquid:S00116?"ZRename this field "forgot_password" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÕ«üÿÿÿÿ
+tsquid:S00116A"WRename this field "email_layout" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨‡Êûıÿÿÿÿ
+qsquid:S00116B"ZRename this field "password_layout" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëù¯x
+tsquid:S00116E"WRename this field "KEY_USERNAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ­Àéøÿÿÿÿ
+tsquid:S00116F"WRename this field "KEY_PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±úÀˆúÿÿÿÿ
+qsquid:S00116G"TRename this field "KEY_REGID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùæ²ÿÿÿÿÿ
+rsquid:S00116H"ZRename this field "KEY_DEVICETOKEN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜŒ´¿
+rsquid:S00116I"URename this field "CustomerID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½¬”Ïşÿÿÿÿ
+rsquid:S00116J"URename this field "company_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãö³ñşÿÿÿÿ
+osquid:S00116K"WRename this field "CustomerName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù¨Ğ¢
+osquid:S00116L"WRename this field "CustomerMail" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä²
+tsquid:S00116M"WRename this field "MobileNumber" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç›ûÿÿÿÿ
+isquid:S00116P"QRename this field "Doorno" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù´é²
+nsquid:S00116Q"QRename this field "Street" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–Ğá‹ÿÿÿÿÿ
+lsquid:S00116R"ORename this field "Town" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õÎ¼üÿÿÿÿ
+ksquid:S00116S"SRename this field "Landmark" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿µ‘Ø
+lsquid:S00116T"ORename this field "City" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£»øÅüÿÿÿÿ
+msquid:S00116U"PRename this field "State" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¾ñàúÿÿÿÿ
+tsquid:S00116Y"\Rename this field "login_main_layout" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èı •
+rsquid:S00116]"ZRename this field "app_preferences" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òÚõ¤
+osquid:S00117œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬îæÌşÿÿÿÿ
+@squid:S1148ÿ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
++squid:S1700<"Rename field "login"(õ¸€§

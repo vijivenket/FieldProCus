@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_blur"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    tools:context="com.capricot.fieldprocustomer.Registration">
+
+    <include
+        android:id="@+id/layout_satoff"
+        layout="@layout/headinglayout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_satoff">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/form_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="30dp">
+
+            <TextView
+                android:id="@+id/name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/full_name_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background"
+                android:hint="@string/full_name"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:importantForAutofill="no" />
+
+
+            <TextView
+                android:id="@+id/emai_id_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_marginTop="15dp"
+                android:text="@string/email_id"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/email_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background"
+                android:hint="@string/enter_your_email_id"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:importantForAutofill="no" />
+
+
+            <TextView
+                android:id="@+id/contact_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_marginTop="15dp"
+                android:text="@string/contact_number"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/contact_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background"
+                android:hint="@string/contact_number"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:importantForAutofill="no" />
+
+
+            <TextView
+                android:id="@+id/alt_contact_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_marginTop="15dp"
+                android:text="@string/alternative_contact_number"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/atl_contact_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background"
+                android:hint="@string/alternative_contact_number"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:importantForAutofill="no" />
+
+
+            <TextView
+                android:id="@+id/company_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_marginTop="15dp"
+                android:text="@string/company"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+            <LinearLayout
+                android:id="@+id/company_spinnerl"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                 android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background">
+
+                <Spinner
+                    android:id="@+id/company_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:spinnerMode="dropdown"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Product_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_marginTop="15dp"
+                android:text="@string/product"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+            <LinearLayout
+                android:id="@+id/product_spinnerl"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                 android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background">
+
+                <Spinner
+                    android:id="@+id/product_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/category_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_marginTop="15dp"
+                android:text="Category"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+            <LinearLayout
+                android:id="@+id/category_spinnerl"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                 android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background">
+
+                <Spinner
+                    android:id="@+id/category_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/model_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_marginTop="15dp"
+                android:text="Model Number"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+            <EditText
+                android:id="@+id/model_number_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Model Number"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:id="@+id/serial_num_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_marginTop="15dp"
+                android:text="Serial Number"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/serial_number_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Serial Number"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:importantForAutofill="no" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Contract Type"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background">
+
+                <Spinner
+                    android:id="@+id/spinner_typeofcontract"
+                    android:overlapAnchor="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+            <TextView
+                  android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_marginTop="15dp"
+                android:text="Start Date"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/startdate_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Start date"
+                android:textColor="@color/black"
+                android:clickable="false"
+                 android:padding="10dp"
+                android:textSize="14dp" />
+
+
+
+
+            <TextView
+                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Contract Duration"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/contractduration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Contract Duration"
+                android:maxLength="2"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:importantForAutofill="no" />
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/address_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_marginTop="15dp"
+                android:text="Address"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/door_no_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Door No"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:importantForAutofill="no" />
+
+
+            <EditText
+                android:id="@+id/street_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Street"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:importantForAutofill="no" />
+
+
+            <EditText
+                android:id="@+id/town_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Town"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/region_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Region"
+                android:visibility="gone"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:importantForAutofill="no" />
+
+
+            <EditText
+                android:id="@+id/landmark_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Land Mark"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:importantForAutofill="no" />
+
+
+            <EditText
+                android:id="@+id/city_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_background"
+                android:hint="City"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:importantForAutofill="no" />
+
+
+            <EditText
+                android:id="@+id/state_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_background"
+                android:hint="State"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:importantForAutofill="no" />
+
+
+            <EditText
+                android:id="@+id/country_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Country"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:importantForAutofill="no" />
+
+
+            <EditText
+                android:id="@+id/pincode_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_background"
+                android:hint="Pin Code"
+                android:inputType="number"
+                android:padding="10dp"
+                android:maxLength="6"
+                android:textSize="14dp"
+                android:importantForAutofill="no" />
+
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/round_corner_label"
+                android:text="Register"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

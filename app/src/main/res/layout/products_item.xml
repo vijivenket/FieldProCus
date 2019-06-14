@@ -1,0 +1,176 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/work_sign_off_submitted"
+    android:layout_width="wrap_content"
+    android:layout_height="105dp"
+    android:background="@color/white"
+    android:layout_margin="10dp"
+    android:elevation="6.5dp"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/Top_label_layout"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/wrk_odr_lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:text="Product"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:text=":"
+            android:textSize="11dp" />
+
+        <TextView
+            android:id="@+id/project_lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wrk_odr_lbl"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:text="Sub Category"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/wrk_odr_lbl"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:text=":"
+            android:textSize="11dp" />
+
+        <TextView
+            android:id="@+id/shop_id_lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/project_lbl"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:text="Serial Number"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/project_lbl"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:text=":"
+            android:textSize="11dp" />
+
+        <TextView
+            android:id="@+id/date_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/shop_id_lbl"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:text="Model No"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/shop_id_lbl"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:text=":"
+            android:textSize="11dp" />
+
+        <TextView
+            android:id="@+id/location_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/date_label"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:text="Contract Type"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/date_label"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:text=":"
+            android:textSize="11dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Top_label_layout">
+
+        <TextView
+            android:id="@+id/product_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:text="Product"
+            android:textSize="11dp" />
+
+        <TextView
+            android:id="@+id/sub_category_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_id"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:text="Product"
+            android:textSize="11dp" />
+
+        <TextView
+            android:id="@+id/serial_number_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sub_category_id"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:text="Product"
+            android:textSize="11dp" />
+
+        <TextView
+            android:id="@+id/model_no_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/serial_number_id"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:text="Product"
+            android:textSize="11dp" />
+
+        <TextView
+            android:id="@+id/contract_type_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/model_no_id"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:text="Product"
+            android:textSize="11dp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

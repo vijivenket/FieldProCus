@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimary">#6cd0fc</color>
+    <color name="colorPrimaryDark">#2d9fc9</color>
+    <color name="colorAccent">#4C535B</color>
+
+    <color name="background">#E5E5E5</color>
+    <color name="white">#ffffffff</color>
+    <color name="darkwhite">#ffeeeeee</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="semitransparent">#88000000</color>
+    <color name="orange">#ffff8800</color>
+    <color name="light_orange">#ffe27d18</color>
+    <color name="Green">#2ecc71</color>
+    <color name="blue">#4aa3df</color>
+    <color name="black">#ff000000</color>
+    <color name="dark_gray">#4C535B</color>
+    <color name="tabMedium">#ffffff</color>
+    <color name="tabDark">#ffffff</color>
+    <color name="tabTransparent">#10ffffff</color>
+    <color name="view_background">#e8ecfa</color>
+    <color name="btn_bg">#277bec</color>
+    <color name="grey">#FFACADB3</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#ffffff</color>
+    <color name="lightgreen">#E0F2F1</color>
+    <color name="red">#FF3B00</color>
+    <color name="golden">#e7a712</color>
+    <color name="green">#8dd76e</color>
+    <color name="capricot">#4E3223</color>
+
+
+
+</resources>

@@ -1,0 +1,176 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/work_sign_off_submitted"
+    android:layout_width="wrap_content"
+    android:layout_height="125dp"
+    android:background="@color/white"
+    android:layout_margin="10dp"
+    android:elevation="6.5dp"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/Top_label_layout"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/ticket_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:text="Ticket ID"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:text=":"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tech_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ticket_text"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:text="Technician Name"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/ticket_text"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:text=":"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/mob_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tech_name_text"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:text="Mobile Number"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/tech_name_text"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:text=":"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/product_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mob_text"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:text="Product Name"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/mob_text"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:text=":"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/category_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_name_text"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:text="Category"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/product_name_text"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:text=":"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Top_label_layout">
+
+        <TextView
+            android:id="@+id/ticket_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:text="Product"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tech_name_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ticket_id"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:text="Product"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/mob_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tech_name_id"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:text="Product"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/product_name_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mob_id"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:text="Product"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/catName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_name_id"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:text="Product"
+            android:textSize="14sp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

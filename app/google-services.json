@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "978588734881",
+    "firebase_url": "https://capricot-fieldprotechnician.firebaseio.com",
+    "project_id": "capricot-fieldprotechnician",
+    "storage_bucket": "capricot-fieldprotechnician.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978588734881:android:6074fcc5e69e11f8",
+        "android_client_info": {
+          "package_name": "com.capricot.fieldpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978588734881-80vesvljcvv8qlkhsal4ah5olr4ft6o9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.capricot.fieldpro",
+            "certificate_hash": "798e436898be3025a643522f3e1b55ca20b5a879"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtNau-8oe9KIDj1qPA2LEVzgmOUX--Jzw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978588734881-j46m2o3kimn1gp8so9bfj5f7rmkdpbsl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978588734881:android:0b947ffbdd43671e",
+        "android_client_info": {
+          "package_name": "com.capricot.fieldprocustomer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtNau-8oe9KIDj1qPA2LEVzgmOUX--Jzw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978588734881-j46m2o3kimn1gp8so9bfj5f7rmkdpbsl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978588734881:android:252465ce396b61a4",
+        "android_client_info": {
+          "package_name": "com.kaspon.fieldprocustomer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978588734881-j4heamapasqlck764ordg7qh8na4a3ht.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kaspon.fieldprocustomer",
+            "certificate_hash": "798e436898be3025a643522f3e1b55ca20b5a879"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtNau-8oe9KIDj1qPA2LEVzgmOUX--Jzw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978588734881-j46m2o3kimn1gp8so9bfj5f7rmkdpbsl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
